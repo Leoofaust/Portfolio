@@ -1,0 +1,248 @@
+/* Estilos para o cabeçalho */
+header {
+    display: flex; /* Usa flexbox para layout */
+    justify-content: space-between; /* Distribui os itens ao longo do espaço disponível */
+    background-color: #201658; /* Cor de fundo */
+    height: 5rem; /* Altura do cabeçalho */
+    padding: 2px; /* Espaçamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+}
+
+/* Estilos para os links de navegação */
+.navegacao p {
+    font-size: 15px; /* Tamanho da fonte */
+    margin-left: 11px; /* Espaçamento à esquerda */
+    color: white; /* Cor do texto */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte */
+}
+
+.navegacao pacman {
+    margin-right: 50px;
+}
+
+.navegacao p:hover {
+    cursor: pointer;
+    color: #00e1ff; /* Cor do texto ao passar o mouse */
+    transform: scale(0.8); /* Efeito de escala ao passar o mouse */
+}
+
+.navegacao {
+    display: flex; /* Usa flexbox para layout */
+    align-items: center; /* Alinha itens verticalmente */
+    gap: 10px; /* Espaço entre os itens */
+    justify-content: end; /* Justifica os itens para o final do container */
+    font-weight: 550; /* Peso da fonte */
+    padding: 2%; /* Espaçamento interno */
+}
+
+.navegacao a:nth-child(1) {
+
+    text-decoration: underline; /* Sublinha o primeiro link */
+}
+  
+
+/* Estilos para o conteúdo principal */
+main {
+    flex-wrap: wrap; /* Permite que os itens quebrem linha conforme necessário */
+    justify-content: space-between; /* Distribui os itens ao longo do espaço disponível */
+    background-color: #161422; /* Cor de fundo */
+}
+
+/* Estilos gerais */
+.imagem_profissional {
+    box-sizing: border-box;
+    display: flex; /* Usa flexbox para layout */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha conforme necessário */
+    justify-content: space-between; /* Distribui os itens ao longo do espaço disponível */
+
+
+}
+
+.banner {
+    display: flex; /* Usa flexbox para layout */
+    justify-content: space-between; /* Distribui os itens ao longo do espaço disponível */
+    height: 100%; /* Altura */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha conforme necessário */
+    overflow: hidden;
+    height: 50vw; /* Altura relativa à largura do viewport */
+}
+
+.foto {
+    border: solid 5px #8C52FF;
+    border-radius: 100vw ;
+    display: flex;
+    width: 20rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.titulo {
+    margin-bottom: 5rem;
+    font-size: xxx-large;
+    color: white;
+}
+
+.subtitulo {
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    margin-top: 2%; /* Espaçamento superior */
+    text-align: center; /* Alinhamento central */
+    color: white; /* Cor do texto */
+    font-size: larger; /* Tamanho da fonte */
+}
+
+h2 {
+    text-align: center; /* Alinhamento central */
+    color: white; /* Cor do texto */
+}
+
+/* Estilos gerais para links */
+a {
+    color: rgb(255, 255, 255); /* Cor do texto */
+    text-decoration: none; /* Sem decoração de texto */
+}
+
+/* Estilos gerais para parágrafos */
+p {
+   color: white; /* Cor do texto */
+   font-family: Arial, Helvetica, sans-serif; /* Fonte */
+
+}
+
+
+.sobre_mim {
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Itens são dispostos em coluna */
+    align-items: center; /* Alinha os itens centralmente na direção transversal */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte */
+    text-align: center; /* Alinhamento central */
+    margin: auto; /* Margem automática */
+    margin-bottom: 70px; /* Margem inferior */
+    font-size: larger; /* Tamanho da fonte */
+}
+
+.meus_projetos {
+
+    text-align: center; /* Alinhamento central */
+    margin: auto; /* Margem automática */
+    margin-bottom: 70px; /* Margem inferior */
+    font-size: larger; /* Tamanho da fonte */
+
+}
+
+.menu {
+    display: flex; /* Usa flexbox para layout */
+    justify-content: space-around; /* Distribui os itens ao redor */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha conforme necessário */
+    width: 80%; /* Largura */
+    margin: auto; /* Margem automática */
+}
+
+.menu__botoes__imagem {
+    width: 80%; /* Largura */
+}
+
+.menu__botoes {
+    scroll-snap-align: start;
+    font-family: Arial, Helvetica, sans-serif; /* Fonte */
+    margin-top: 2%; /* Espaçamento superior */
+    width: 20rem; /* Largura */
+    height: 25rem; /* Altura */
+    border: solid 5px rgb(255, 255, 255); /* Borda */
+    display: flex; /* Usa flexbox para layout */
+    text-align: center; /* Alinhamento central */
+    flex-direction: column; /* Itens são dispostos em coluna */
+    align-items: center; /* Alinha os itens centralmente */
+    justify-content: space-around; /* Distribui os itens ao redor */
+    background-color: #8C52FF; /* Cor de fundo */
+    border-radius: 20px; /* Raio da borda */
+    margin-bottom: 30px; /* Margem inferior */
+    min-width: 300px; /* Largura mínima */
+    flex: 0 0 auto; /* Flex-grow, flex-shrink, flex-basis */
+    margin-right: 20px; /* Margem direita */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento central */
+    scroll-snap-align: center; /* Alinhamento para rolagem */
+}
+
+.menu__botoes:hover {
+    filter: brightness(92%); /* Ajuste de brilho ao passar o mouse */
+    cursor: pointer; /* Cursor */
+    transform: scale(1.01); /* Efeito de escala ao passar o mouse */
+}
+
+.menu__botoes__forca {
+    width: 200px; /* Largura */
+}
+
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.icone {
+    width: 60%; /* Largura */
+}
+
+.titulo_objetivos {
+    font-family: Arial, Helvetica, sans-serif; /* Fonte */
+    text-align: center; /* Alinhamento central */
+    margin: auto; /* Margem automática */
+    margin-top: 70px;
+    margin-bottom: 70px; /* Margem inferior */
+    font-size: x-large; /* Tamanho da fonte */
+}
+
+.teste {
+    margin: auto; /* Margem automática */
+    margin-bottom: 70px; /* Margem inferior */
+    font-size: larger; /* Tamanho da fonte */
+}
+
+
+
+
+.objetivo {
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Itens são dispostos em coluna */
+    text-align: center; /* Alinhamento central */
+
+}
+
+/* Estilos para o rodapé */
+footer {
+    color: white; /* Cor do texto */
+    align-items: center; /* Alinha itens verticalmente */
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Itens são dispostos em coluna */
+    padding: 2vw; /* Espaçamento interno */
+    background: rgb(233,93,242); /* Cor de fundo */
+    background: linear-gradient(0deg, rgb(149, 43, 247) 0%, rgba(22,20,34,1) 100%); /* Gradiente de fundo */
+}
+
+.footer_links {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; /* Fonte */
+    font-size: larger; /* Tamanho da fonte */
+}
+
+
+
+
+  
